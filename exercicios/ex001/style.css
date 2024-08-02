@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 69.6%;
+    margin: auto;
+}
+
+body{
+    background-image: url(fundo2.png);
+}
+header nav{
+    text-align: right;
+}
+header> nav > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header > nav > a:hover {
+    text-decoration: underline;
+    color: red;
+}
+main{
+    padding: 30px;
+    line-height: 1.5em;
+}
+main> p{
+    text-indent: 10px;
+}
+footer > p{
+    text-align: center;
+}
