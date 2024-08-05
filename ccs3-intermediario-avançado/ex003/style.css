@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: url(fundo.jpg)no-repeat top center;
+    background-size: cover;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 10px; 
+}
+.container img{
+    margin: auto;
+    display: flex;
+    width: 35%;
+    padding: 10px;
+}
+.container label input{
+    display: grid;
+    width: 70%;
+    height: 15%;
+    margin: auto;
+}
+input.passemail:hover{
+    background-color: #ccc;
+}
+input{border-radius: 5px;}
+input::placeholder{
+    padding-left: 20px;
+}
+.logar{
+    width: 71%;
+    margin-left: 72px;
+    height: 15%;
+    padding: 10px;
+    background-color: rgb(69, 143, 255);
+    color: white;
+}
+.logar:hover{
+    background-color: rgb(0, 0, 109);
+    border: 2px solid red;
+}
+input.email{
+    background-position: 10px;
+    padding: 10;
+    background-repeat: no-repeat;
+    background-image: url(icone-usuario.png);
+}
+input.password{
+    background-position: 10px;
+    padding: 10;
+    background-repeat: no-repeat;
+    background-image: url(icone-cadeado.png);
+}

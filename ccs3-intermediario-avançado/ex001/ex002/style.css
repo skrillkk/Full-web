@@ -1,0 +1,30 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    border: 1px solid red;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+input[type="text"]{
+    display: grid;
+    width: 300px;
+}
+textarea{
+    width: 20em;
+    height: 12em;
+}
+.comentario{
+    width: 20em;
+    height: 12em;
+}
