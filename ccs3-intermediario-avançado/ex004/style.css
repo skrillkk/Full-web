@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(fundo.png) repeat-x;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(logo.png) no-repeat center;
+}
+.topo{
+    height: 150px;
+    background: url(detalhe-topo.png) no-repeat right top;
+    padding-top:25px ;
+}
+header nav{
+    margin-top: 0px;
+    background:#b10333 ;
+    float: left;
+    line-height: 2em;
+}
+header nav a{
+font-size: 0.9em;
+padding:1em ;
+text-decoration: none;
+color: white;
+background: url(divisor.png)no-repeat left center;
+}
+.primeiro{
+    background: none;
+}
+header nav a:hover{
+    color: #69001d;
+    text-decoration: underline;
+}
+#checked{color:rgb(62, 1, 177);
+    
+}
+.container{
+    width: 750px;
+    margin: auto;
+}
+.conteudo{
+    margin-top: 85px;
+}
+.primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+.secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+.lateral{
+    width: 180px;
+    float: left;
+margin: 0px 0px 20px -750px ;
+}
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px 0;
+    background: url(fundo-caixa.png);
+}
+h2{
+    font-size: 1.1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+h3{
+    padding: 10px;
+    text-transform: uppercase;
+    color: #69001d;
+    border:  2px solid #870529;
+    border-radius: 5px;
+}
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+.caixa-conteudo ul{
+    list-style: none;
+}
+.caixa-conteudo ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+.caixa-conteudo #lateral1 ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+#noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    text-decoration: underline;
+    color: blue;
+    clear: both;
+}
+}
+.caixa-conteudo img{
+    border: 2px solid #dfdfdf;
+}
+label{cursor: pointer;
+display: block;}
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+input#submit{
+width: 80px;
+color:#fff;
+background-color: #b10333;
+border: 2px solid #870529;
+padding: 5px;}
+footer{
+    width: 750px;
+    margin:auto;
+    padding: 20px;
+    background-color: #ccc;
+    color: white;
+}

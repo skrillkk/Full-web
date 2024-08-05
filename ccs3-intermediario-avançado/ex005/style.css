@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(bg.png);
+    margin: 15px;
+}
+.container{
+    background: #ede9cc url(bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+#arealogo{
+    position: absolute;
+    background: url(topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+}
+#areamenu{
+position: absolute;
+    background: url(topo-imagem-lateral.png);
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+#conteudomenu{
+    margin: 10px 10px 10px 100px;
+}
+#menulocais{
+    border-bottom:1px solid #b5ab56 ;
+    border-top:1px solid #b5ab56 ;
+    padding: 0px 5px;
+    font-size: 0.8em;
+    color: #8b8448;
+}
+#menulocais .locais{
+float: left;
+line-height: 2.1em;
+}
+a.reserva{
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+    text-decoration: none;
+}
+#menu{
+    margin-top: 15px;
+}
+ul{
+    list-style: none;
+}
+ul#navegaca a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+ul#navegaca a:hover{
+    background: #fdf6be;
+}
+ul#navegaca{
+    float: left;
+}
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+#areaprincipal{
+    float: left;
+    width: 50%;
+}
+#arealateral{
+    float: right;
+    width: 50%;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+    min-width: 740px;
+    max-width: 1180px;
+}
+footer{
+    clear: both;
+}
