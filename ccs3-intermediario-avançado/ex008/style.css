@@ -1,0 +1,15 @@
+#conteudo{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
