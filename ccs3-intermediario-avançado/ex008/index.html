@@ -1,24 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!--[if lt IE9]>
+        <script src"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+    <title>Projeto museu</title>
 </head>
 
 <body>
-    <h1>Flexbox</h1>
-    <div id="conteudo">
-        <div class="item"><h1>Meu Filme Favorito</h1>
-        </div>
-        <div class="item"><h2>Meu segundo filme favorito</h2>
-        </div>
-        <div class="item"><h3>Meu terceiro filme favorito</h3>
-        </div>
-        <div class="item"><h4>Meu quarto filme favorito</h4>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><a href="#">MUSEU <span>NACIONAL</span></a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">EXPOSIÇÃO</a></li>
+                    <li><a href="#">PESQUISA</a></li>
+                    <li><a href="#">ACERVO</a></li>
+                    <li><a href="#">VIDEOS</a></li>
+                    <li><a href="#">FOTOS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Fim do header-->
+        <div class="principal">
+            <div class="conteudo">
+                <section id="capa"><img src="museu.png" alt="">
+                </section>
+                <section id="postagens">
+                    <article id="video"><h3>Conheça o museu</h3><iframe width="310" height="170" src="https://www.youtube.com/embed/TW3KoPkuWEA?si=Vm5n-eLgMPy5WZka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+                    <article id="Mapa">
+                        <h3>Conheça o Mapa</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8016449.317976933!2d12.473251428049872!3d-11.166751766860529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f24ecaad8b27%3A0x590a289d0d4a4e3d!2sAngola!5e0!3m2!1spt-BR!2sbr!4v1723229429369!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <article id="Exposiçoes">
+                        <h3>Exposiçoes</h3>
+                        <ul>
+                        <li><a href="#">os assustadores insetos</a></li>
+                        <li><a href="#">O cranio de luzia a mulher mais antiga do brasil</a></li>
+                        <li><a href="#">preguiça gigante e tigre-dentes de sabe</a></li>
+                        <li><a href="#">plantas do brasil central</a></li>
+                        <li><a href="#">era do gelo</a></li>
+                        <li><a href="#">Se beber nao case</a></li>
+                        <li><a href="#"><strong>Leia mais</strong></a></li>
+                    </ul>
+                    </article>
+                    <article id="anos">
+                        <h3>FUCK me</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis rerum quam modi quos, exercitationem, dolorem aliquid mollitia nulla, rem perspiciatis voluptatibus a. Ex fuga iure accusantium vitae natus nesciunt!</p>
+                        <li><a href="#"><strong>Leia mais</strong></a></li>
+                    </article>
+                </section>
+            </div>
+            <!--Fim do conteudo-->
+            <aside>
+                <section><img src="depoimento.png" alt=""></section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Qtd</label>
+                            <input class="campo" type="text" id="qtd" value="1">
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <div id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="#">
+                        <img src="imagem1.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="#">
+                        <img src="imagem2.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="#">
+                        <img src="imagem3.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="#">
+                        <img src="imagem4.jpg" height="93px" width="93px">
+                    </a>
+                </div>
+            </aside>
+            <footer style="clear: both;"><p>
+                <a href="#">Home</a>
+                <a href="#">Exposiçoes</a>
+                <a href="#">Pesquisa</a>
+                <a href="#">Acervo</a>
+                <a href="#">Videos</a>
+                <a href="#">Fotos</a>
+                <a href="#">Contato</a>
+            </p>
+            <p>
+                2019 <a href="#">&copy;Copyright</a>
+            </p>
+                  
+            </footer>
         </div>
     </div>
 </body>
+
 </html>
